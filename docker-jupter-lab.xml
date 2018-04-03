@@ -33,7 +33,7 @@
   <Support/>
   <Banner/>
   <WebUI>http://[IP]:[PORT:9999]</WebUI>
-  <Icon>https://avatars1.githubusercontent.com/u/22800682?s=200&amp;v=4</Icon>
+  <Icon>https://raw.githubusercontent.com/empeee/docker-jupyter-lab/master/jupyter-lab-icon.png</Icon>
   <ExtraParams>-i -t</ExtraParams>
   <DonateText/>
   <DonateLink/>
