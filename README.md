@@ -12,3 +12,4 @@ docker create \
 ## Custom Packages
 In addition to the many packages already included in Anaconda3, these are packages I use often enough to want to include in my base image.  I expect this will change over time.
   * [SchemDraw](https://cdelker.bitbucket.io/SchemDraw/SchemDraw.html) - Python-based schematic drawing tool
+  * [python-control](http://python-control.readthedocs.io/en/latest/index.html) - Python control systems library
