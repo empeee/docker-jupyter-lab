@@ -4,7 +4,7 @@ ENV JUPYTER_CONFIG_DIR="/opt/jupyterconfig"
 
 # Apt installs
 RUN apt update
-RUN apt install -y octave octave-symbolic octave-miscellaneous guplot ghostscript
+RUN apt install -y octave octave-symbolic octave-miscellaneous gnuplot ghostscript
 RUN apt clean
 
 # Conda installs
