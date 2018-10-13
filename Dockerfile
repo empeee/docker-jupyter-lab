@@ -9,11 +9,11 @@ RUN apt clean
 
 # Conda installs
 RUN conda install -c conda-forge jupyterlab octave_kernel
-RUN conda install tensorflow mpld3 nodejs
+RUN conda install mpld3 nodejs
 RUN conda clean --all
 
 # Pip installs
-RUN pip install SchemDraw control
+RUN pip install SchemDraw control tensorflow
 
 # Jupyter installs
 #RUN jupyter labextension install jupyterlab-drawio
